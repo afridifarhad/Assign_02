@@ -1,14 +1,20 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+
 }
+body{
+    background-color: lightgray;
+}
+
 .container{
     background-color: whitesmoke;
     padding: 8px;
-    width: 800px;
-    height: 800px;
-    border: solid 2px black;
-    font-size: 22px;
+    width: 600px;
+    height: 750px;
+    
+    font-size: 16px;
     margin-left: 5px;
     left: 100px;
     top: 50px;
@@ -27,22 +33,22 @@
 .profile{
     background-color: rgb(133, 182, 255);
     padding: 8px;
-    left:  925px;
+    left:  705px;
     top: 50px;
     position: absolute;
-    width: 500px;
-    height: 830px;
-    font-size: 20px;
-    border: 2px solid black;
+    width: 400px;
+    height: 750px;
+    font-size: 16px;
+  
     
 }
 
 .profile img{
     
     border-radius: 50%;
-    left: 550px;
+  
     margin-top: 30px;
-    margin-left: 150px;
+    margin-left: 100px;
     
 
 }
